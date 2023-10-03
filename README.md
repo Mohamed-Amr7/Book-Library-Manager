@@ -12,6 +12,12 @@ This Vanilla JS website allows users to manage a library of books.
 
 This website uses object-oriented programming (OOP) to manage the library of books. This makes the code more modular and reusable, and it also makes it easier to add new features in the future.
 
+## Live Demo
+
+[Book Library Manager Live Demo](https://mohamed-amr7.github.io/Book-Library-Manager/)
+
+This link will take you to a live demo of the Book Library Manager website. You can use this demo to try out the features of the website.
+
 ## Contributing
 
 Contributions are welcome to this project. If you would like to contribute, please follow these steps:
