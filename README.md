@@ -1,15 +1,9 @@
-<style>
-  img {
-    width: 45%;
-    height: 45%;
-  }
-</style>
 
 # Book Library Manager
 
 This Vanilla JS website allows users to manage a library of books.
 
-![Sample Image](assets/Sample.png)
+<img src="assets/Sample.png" style= "width: 50%;" alt="Sample Image">
 
 ## Features
 
