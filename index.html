@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/favicon.png">
+</head>
+
+<body>
+<!-- Header -->
+<header>
+  <div class="header-container">
+    <!-- Site Title -->
+    <h1 class="header-item">Library</h1>
+    <button class="header-item header-btn"> Log in</button>
+  </div>
+</header>
+
+<!-- Canvas and Settings -->
+<main>
+  <div class="add-book-container">
+    <button class="add-book-btn">Add Book</button>
+  </div>
+  <dialog id="modal">
+    <div class="modal-container">
+    <h2>Add New Book</h2>
+    <form id="modalForm" autocomplete="off">
+      <div class="modal-form-item">
+        <label for="title"></label>
+        <input type="text" class="modal-form-input" id="title"  placeholder="*Title" required>
+      </div>
+      <div class="modal-form-item">
+        <label for="author"></label>
+        <input type="text" class="modal-form-input" id="author" placeholder="*Author" required>
+      </div>
+      <div class="modal-form-item">
+        <label for="totalPages"></label>
+        <input type="number" class="modal-form-input" id="totalPages"  placeholder="*Total Pages" required>
+      </div>
+      <div class="modal-form-item">
+        <input type="number" class="modal-form-input" id="readPages"  placeholder="Read Pages">
+        <label for="readPages"></label>
+        <input type="checkbox" id="readBtn" class="toggle" disabled>
+        <label for="readBtn"></label>
+      </div>
+      <div class="modal-form-item">
+        <label for="bookCover"></label>
+        <input type="url" class="modal-form-input" id="bookCover" placeholder="Book Cover URL" >
+      </div>
+      <div class="form-btns-container">
+        <button class="submit-btn form-btn" type="button">Add Book</button>
+        <button class="cancel-btn form-btn" type="button">Cancel</button>
+      </div>
+    </form>
+    </div>
+  </dialog>
+  <ul class="book-list">
+
+  </ul>
+</main>
+
+<!-- Footer -->
+<footer>
+
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
