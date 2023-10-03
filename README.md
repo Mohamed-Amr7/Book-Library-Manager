@@ -3,7 +3,7 @@
 
 This Vanilla JS website allows users to manage a library of books.
 
-<img src="assets/Sample.png" style= "width: 50%;" alt="Sample Image">
+<img src="assets/Sample.png" style= "width: 70%;" alt="Sample Image">
 
 ## Features
 
